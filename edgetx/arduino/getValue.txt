@@ -1,1 +1,0 @@
-http://downloads-20.open-tx.org/firmware/lua_fields.txt
