@@ -1,1 +1,3 @@
-https://luadoc.edgetx.org/part_i_-_script_type_overview/function_scripts
+Official script docs: https://luadoc.edgetx.org/part_i_-_script_type_overview/function_scripts
+Debug (OpenTX still works): https://doc.open-tx.org/opentx-2-2-lua-reference-guide/part_vi_-_advanced_topics/debugging_techniques
+TX16s vars: http://downloads-20.open-tx.org/firmware/lua_fields.txt
