@@ -1,17 +1,25 @@
 
 #include <SoftwareSerial.h> 
-SoftwareSerial tx16s(0, 1); 
-
-
+const byte rxPin = 0;
+const byte txPin = 1;
+SoftwareSerial tx16s(rxPin, txPin); 
 
 bool recv_str_status = false;
 
 String tmp_recv_str = "";
 String recv_str = "";
 
+int MAX_RECV_SIZE = 500;
+
 void build_serial_string() {
- 
+  if(tmp_recv_str.length() >= MAX_RECV_SIZE) {
+     tmp_recv_str = "";
+     recv_str_status = false;
+     Serial.println("Could not read the string");
+  }
+  
   if (tx16s.available() > 0) {
+    Serial.print("wtf");
     auto c_recv = tx16s.read();
     tmp_recv_str += (char)c_recv;
     if(c_recv == '\n'){
@@ -35,27 +43,18 @@ String get_recv_string()
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("Start"); // so I can keep track of what is loaded
-  Serial.setTimeout(50);
+  Serial.println("Start"); 
   tx16s.begin(57600);
 }
 
 void loop() {
- /*auto xd = tx16s.available();
- if (xd > 0) {
-  auto r = tx16s.read();
-  myStr += (char)r;
-  if(r == '\n'){
-      Serial.print(myStr);
-      myStr = "";   
-  }
- } */
-  build_serial_string();
+
+ build_serial_string(); 
  if(is_recv_str()) {
   Serial.print(get_recv_string());
  }
 
- //tx16s.write("hola");
+ //tx16s.write('15');
  //tx16s.println("hola");
  //if (Serial.available()) {
 
