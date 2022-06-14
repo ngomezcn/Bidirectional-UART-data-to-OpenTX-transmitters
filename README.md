@@ -53,3 +53,7 @@ TODO: ....
 - [Lua API C++ code](https://github.com/EdgeTX/edgetx/blob/main/radio/src/lua/api_general.cpp)
 - [EdgeTX Lua Reference Guide](https://luadoc.edgetx.org/)
 - [OpenTX Lua Fields](http://downloads-20.open-tx.org/firmware/lua_fields.txt) (Also works for EdgeTX)
+
+### Flags
+
+Serial data: 0x67234783
