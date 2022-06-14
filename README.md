@@ -9,14 +9,16 @@ El proyecto todavía está en fase de desarrollo, pero la versión mínima viabl
 * **EdgeTX 2.6.0 or above** (todavía no ha sido probado en otras versiones o en OpenTX)
 * **Pines TX y RX** en la emisora, pueden ser internos o externos
 * Módulo **Bluetooth HC-05** o cualquier módulo **FTDI UART to USB** en mi caso tengo FT232RL (Recomiendo utilizar el FTDI para más fiabilidad. OTROS: No es estrictamente necesario utilizar estos módulos, cualquier otro sistema que le permita una comunicación UART bidireccional con el pc es válida)
-
-
+* Programa lectura/escritura de serial data en mi caso USBView (www.ftdichip.com/utilities)
 ## Guia
-### 1. Conectar FTDI con emisora
+### **1. Conectar FTDI con emisora**
 Conectar el pin **TX al RX** y el pin **RX al pin TX**
 Los pines VCC y GND se utilizarán más adelante.
-Es recomendable realizarlo sobre una placa de desarrollo, ya que más adelante facilitará depurar el código.
+Es recomendable conectarlo en una placa de desarrollo, ya que más adelante facilitará depurar el código.
 
 <img src="./images/tx16s_uart.jpg" width="25%">   
 <img src="./images/tx16s_tx_rx.jpg" width="49%">
 
+### **2. Open Serial Monitor**
+
+Descargar el prog
