@@ -18,6 +18,7 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  */
+// #FLAG: 0x67234783
 
 #include "opentx.h"
 #include "serial.h"
