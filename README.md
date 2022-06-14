@@ -21,8 +21,12 @@ Conectar el pin **TX al RX** y el pin **RX al pin TX**
 Los pines VCC y GND se utilizarán más adelante.
 Es recomendable conectarlo en una placa de desarrollo, ya que más adelante facilitará depurar el código.
 
-<img src="./images/tx16s_uart.jpg" width="23%">   
-<img src="./images/tx16s_tx_rx.jpg" width="30%">
+<p float="left">
+    <img src="./images/tx16s_uart.jpg" width="25%">   
+    <img src="./images/tx16s_tx_rx.jpg" width="49%">
+</p>
+
+
 
 <br>
 
