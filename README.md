@@ -1,1 +1,1 @@
-# Bypass to Radiomaster TX16S
+# Bidirectional-data-to-Radiomaster-TX16S
