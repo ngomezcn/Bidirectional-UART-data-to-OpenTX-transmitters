@@ -43,12 +43,12 @@ Es recomendable conectarlo en una placa de desarrollo, ya que más adelante faci
 
 <img src="./images/sp_example_01.jpg" width="80%">
 
-    Este paso es importante, ya que permite asegurarnos que no hay problemas con el envío/recibo de datos.
-    Si en su consola se muestran símbolos extraños, espacios sin sentidos, huecos en blanco u otro tipo de anomalías, debe probar otro cable y asegurarse de conectar el cable lo más cerca posible entre emisora/ftdi además de alejar cualquier fuente electromagnética. Si no se soluciona, pruebe con diferentes niveles de baud rate.
+> Este paso es importante, ya que permite asegurarnos que no hay problemas con el      envío/recibo de datos. <br>
+Si en su consola se muestran símbolos extraños, espacios sin sentidos, huecos en blanco 
+u otro tipo de anomalías, debe probar otro cable y asegurarse de conectar el cable lo más cerca posible entre emisora/ftdi además de alejar cualquier fuente electromagnética. Si no se soluciona, pruebe con diferentes niveles de baud rate.
 
 TODO: ....
     
-
 ## Enlaces de interés:
 - [Lua API C++ code](https://github.com/EdgeTX/edgetx/blob/main/radio/src/lua/api_general.cpp)
 - [EdgeTX Lua Reference Guide](https://luadoc.edgetx.org/)
