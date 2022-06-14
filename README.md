@@ -22,7 +22,7 @@ Los pines VCC y GND se utilizarán más adelante.
 Es recomendable conectarlo en una placa de desarrollo, ya que más adelante facilitará depurar el código.
 
 <img src="./images/tx16s_uart.jpg" width="23%">   
-<img src="./images/tx16s_tx_rx.jpg" width="40%">
+<img src="./images/tx16s_tx_rx.jpg" width="30%">
 
 <br>
 
