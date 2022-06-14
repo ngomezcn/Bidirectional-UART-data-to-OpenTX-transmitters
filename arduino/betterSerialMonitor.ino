@@ -1,4 +1,6 @@
-
+/*
+  Not finished
+*/
 #include <SoftwareSerial.h> 
 const byte rxPin = 0;
 const byte txPin = 1;
