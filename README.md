@@ -30,7 +30,7 @@ Es recomendable conectarlo en una placa de desarrollo, ya que más adelante faci
 
 <br>
 
-### 1.1 Verificar envió/recibo de datos
+### 1.1 Verificar envió/recibo de datos (opcional)
 
 1. Deberá instalar el siguiente Lua script ([bid.lua](./lua_scripts/tests/bid.lua)) en la carpeta FUNCTIONS de su emisora, debe activarlo de la manera que prefiera.
 
