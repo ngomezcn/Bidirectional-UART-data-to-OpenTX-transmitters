@@ -44,7 +44,7 @@ Es recomendable conectarlo en una placa de desarrollo, ya que más adelante faci
 <img src="./images/sp_example_01.jpg" width="80%">
 
 > Este paso es importante, ya que permite asegurarnos que no hay problemas con el envío/recibo de datos. <br>
-Si en su consola se muestran símbolos extraños, espacios sin sentidos, huecos en blanco
+Si en su consola se muestran símbolos extraños, saltos de línea sin sentido, huecos en blanco
 u otro tipo de anomalías, debe probar otro cable y que sea lo más corto posible, también aleje cualquier fuente electromagnética. Si no se soluciona, pruebe con diferentes niveles de baud rate.
 TODO: ....
     
