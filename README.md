@@ -3,12 +3,12 @@
 
 La mayoría de las guías que hay sobre instalar módulos bluetooth o usar el puerto UART solo muestran como mandar telemetría hacia fuera, después de buscar por todo internet no he encontrado ninguna que explique como poder darle instrucciones desde UART o con algún módulo externo. En esta guía se explica como realizarlo y algunos métodos para poder depurar el código.
 
-He escogido realizar el proyecto sobre la TX16s, ya que esta soporta más de 40 protocolos y me permitirá operar cualquier aparato RC de manera programática, aunque también debería funcionar en cualquier otra emisora que soporte EdgeTX o OpenTX y UART (Jumpter, Taranis, Eachine, SPektrum...)
+He escogido realizar el proyecto sobre la TX16s, ya que esta soporta más de 40 protocolos y me permitirá operar cualquier aparato RC de manera programática, aunque también debería funcionar en cualquier otra emisora que soporte EdgeTX u OpenTX, y UART (Jumpter, Taranis, Eachine, SPektrum...)
 
 El proyecto todavía está en fase de desarrollo, pero la versión mínima de enviar/recibir funciona.
 
 ## Requisitos
-* **EdgeTX 2.6.0 or above** (todavía no ha sido probado en versiones inferiores o debería funcionar en OpenTX, pero no se ha probado)
+* **EdgeTX 2.6.0 or above** (todavía no ha sido probado en versiones inferiores, debería funcionar en OpenTX pero no se ha probado)
 * Pines **TX y RX** en la emisora, pueden ser internos o externos
 * Módulo **Bluetooth HC-05** o cualquier módulo **FTDI UART to USB** en mi caso tengo FT232RL (Cualquier otro sistema que le permita una comunicación UART bidireccional es valido)
 * Programa lectura/escritura serial data [OpenSerialPortMonitor](http://github.com/whitestone-no/open-serial-port-monitor/releases)<br> (También puede usar cualquier otro que prefiera)
