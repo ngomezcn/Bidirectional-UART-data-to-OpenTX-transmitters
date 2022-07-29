@@ -18,6 +18,7 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  */
+// #FLAG: 0x17345345
 
 #include <ctype.h>
 #include <stdio.h>

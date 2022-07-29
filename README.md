@@ -54,6 +54,11 @@ TODO: ....
 - [OpenTX Lua Fields](http://downloads-20.open-tx.org/firmware/lua_fields.txt) (Also works for EdgeTX)
 
 ### Flags
-El ecosistema para desarrolladores de EdgeTX es bastante pobre. Hay un fork de la versión 2.6.0 en esta repo que utilizo para estudiar/entender el código y poder desarrollar este proyecto. Cuando hay un punto interesante o importante le asigno un número aleatorio al fichero/función y lo guardo aquí, de esta manera puedo volver a consultarlo rápidamente, no es lo ideal, pero no es mi misión documentar EdgeTX
+El ecosistema para desarrolladores de EdgeTX es bastante pobre. Hay un fork de la versión 2.6.0 en esta repo que utilizo para estudiar/entender el código y poder desarrollar este proyecto. Cuando hay un punto interesante o importante le asigno un número aleatorio al fichero,función,comentario,variable... y lo guardo aquí, de esta manera puedo volver a consultarlo rápidamente, no es lo ideal, pero no es mi misión documentar EdgeTX
 
-Serial data: 0x67234783 
+Punto de entrada del serial data: 0x67234783 
+Definiciones de las funciones de Lua (no confirmado que estén todas las declaraciones): 0x17345345 
+Código del entrenador, es la única funcionalidad que también utiliza UART puede que de problemas: 0x17543345
+
+Por encontrar:
+- Código  que se encarga de cerrar los scripts en caso de que los recursos de la emisora se saturen 

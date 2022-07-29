@@ -19,6 +19,8 @@
  * GNU General Public License for more details.
  */
 
+// 0x17543345
+
 #include "opentx.h"
 
 int16_t ppmInput[MAX_TRAINER_CHANNELS];
